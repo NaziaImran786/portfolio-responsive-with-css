@@ -78,8 +78,8 @@
 }
   
 .inputDetails{
-  padding: 15px 0 15px 12px;
-  font-size: 15px;
+  padding: .9375rem 0 .9375rem .75rem;
+  font-size: .9375rem;
   background-color: #333333;
   border-radius: .5rem;
 }
