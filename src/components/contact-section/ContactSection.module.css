@@ -1,14 +1,14 @@
 .contactUs{
   width: 100%;
   background-color: var(--background-gray);
-  padding: 9.625rem 9.1875rem 10rem 9.1875rem;
+  padding: 154px 147px 160px 147px;
   text-align: center;
 }
   
 .contactUs h1{
-  font-size: 3rem;
-  line-height: 3rem;
-  margin-bottom: 18px;
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 1.125rem;
 }
   
 .contactUs span{
@@ -16,28 +16,28 @@
 }
   
 .contactUs p{
-  font-size: 1.0456rem;
-  line-height: 1.75rem;
-  margin-bottom: 6rem;
+  font-size: 16.7296px;
+  line-height: 28px;
+  margin-bottom: 96px;
 }
   
 .contactUsBottomDiv{
   margin: auto;
   width: 100%;
   display: flex;
-  gap: 120px;
+  gap: 7.5rem;
 }
   
 .contactLeftDiv{
-  width: 300px;
+  width: 18.75rem;
   display: flex;
-  gap: 48px;
+  gap: 3rem;
   flex-direction: column;
 }
   
 .contactLeftDivText{
   display: flex;
-  gap: 8px;
+  gap: .5rem;
   flex-direction: column;
   text-align: start;
 }
@@ -52,43 +52,43 @@
   
 .contactLeftDivContainer{
   display: flex;
-  gap: 16px;
+  gap: 1rem;
 }
   
 .contactRightDiv{
-  width: 650px;
+  width: 40.625rem;
     
 }
   
 .contactRightDiv form{
   width: 100%;
   display: flex;
-  gap: 35px;
+  gap: 2.1875rem;
   flex-direction: column;
 }
   
 .topInputDiv{
   width: 100%;
   display: flex;
-  gap: 8px;
+  gap: .5rem;
 }
   
 .topInputDiv input{
-  width: 320px;
+  width: 20rem;
 }
   
 .inputDetails{
-  padding: .9375rem 0 .9375rem .75rem;
-  font-size: .9375rem;
+  padding: 15px 0 15px 12px;
+  font-size: 15px;
   background-color: #333333;
-  border-radius: 8px;
+  border-radius: .5rem;
 }
   
 .inputBtn{
   background-color: var(--button-color);
-  width: 178px;
-  height: 52px;
-  border-radius: 8px;
+  width: 11.125rem;
+  height: 3.25rem;
+  border-radius: .5rem;
   cursor: pointer;
   
   &:hover{
@@ -96,24 +96,24 @@
   }
 } 
 
-@media ( max-width: 768px) {
+@media ( max-width: 48rem) {
   .contactUs{
-      padding: 160px 32px 160px 32px;
+      padding: 10rem 2rem 10rem 2rem;
   }
   
 .contactUsBottomDiv{
     flex-direction: column;
-    gap: 120px;
+    gap: 7.5rem;
   }  
 }
 
-@media (max-width: 390px) {
+@media (max-width: 24.375rem) {
   .contactRightDiv{
       width: 100%;
     }
 
     .topInputDiv{
       flex-direction: column; 
-      gap: 35px;
+      gap: 2.1875rem;
     }
 }
